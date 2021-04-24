@@ -1,9 +1,9 @@
 {
   "name": "@icya/hooks",
-  "version": "2.1.0",
+  "version": "2.1.5",
   "description": "",
-  "module": "dist/hooks.modern.js",
   "main": "dist/hooks.js",
+  "module": "dist/hooks.modern.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build-cjs": "microbundle build --tsconfig tsconfig.json --compress=false --format cjs",
@@ -11,8 +11,7 @@
     "build": "npm run build-all & npm run build-cjs"
   },
   "files": [
-    "dist",
-    "esm"
+    "dist"
   ],
   "keywords": [],
   "author": "",
