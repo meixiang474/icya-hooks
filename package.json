@@ -1,6 +1,6 @@
 {
   "name": "@icya/hooks",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "",
   "main": "dist/hooks.js",
   "module": "dist/hooks.modern.js",
