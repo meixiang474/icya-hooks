@@ -1,20 +1,25 @@
 {
   "name": "@icya/hooks",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "",
-  "module": "dist/index.js",
+  "module": "dist/hooks.modern.js",
+  "main": "dist/hooks.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build-cjs": "microbundle build --tsconfig tsconfig.json --compress=false --format cjs",
+    "build-all": "microbundle build --tsconfig tsconfig.json --compress=false",
+    "build": "npm run build-all & npm run build-cjs"
   },
   "files": [
-    "dist"
+    "dist",
+    "esm"
   ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^17.0.3",
+    "microbundle": "^0.13.0",
     "react": "^17.0.2"
   },
   "sideEffects": false,
@@ -22,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@icya/utils": "^2.0.4"
+    "@icya/utils": "^2.1.0"
   },
   "repository": {
     "type": "git",
