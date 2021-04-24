@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es5",
+    "module": "commonjs",
     "strict": true,
     "jsx": "react",
     "importHelpers": true,
@@ -35,5 +35,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
