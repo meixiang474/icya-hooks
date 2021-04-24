@@ -1,6 +1,6 @@
 {
   "name": "@icya/hooks",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,9 @@
   },
   "dependencies": {
     "@icya/utils": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meixiang474/icya-hooks.git"
   }
 }
