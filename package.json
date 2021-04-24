@@ -1,15 +1,17 @@
 {
   "name": "@icya/hooks",
-  "version": "2.1.9",
+  "version": "2.2.0",
   "description": "",
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "esm/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build:esm": "tsc -p tsconfig.esm.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "esm"
   ],
   "keywords": [],
   "author": "",
